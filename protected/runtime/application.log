@@ -1,0 +1,1000 @@
+2022/03/25 02:36:42 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:1121
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/delete')
+#10 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/delete&id=13
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/03/25 02:36:42 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:1121
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/delete')
+#10 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/delete&id=20
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/03/25 02:36:42 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:1121
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/delete')
+#10 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/delete&id=21
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/03/25 02:36:42 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:1121
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/delete')
+#10 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/delete&id=13
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/03/25 02:36:43 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:1121
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/delete')
+#10 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/delete&id=22
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/03/25 02:36:43 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:1121
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/delete')
+#10 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/delete&id=20
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/03/25 02:36:43 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:1121
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/delete')
+#10 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/delete&id=21
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/03/25 02:36:43 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:1121
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/delete')
+#10 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/delete&id=24
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/03/25 02:36:43 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:1121
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/delete')
+#10 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/delete&id=22
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/03/25 02:36:43 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:1121
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/delete')
+#10 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/delete&id=26
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/03/25 02:36:43 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:1121
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/delete')
+#10 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/delete&id=27
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/03/25 02:36:43 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:1121
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/delete')
+#10 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/delete&id=24
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/03/25 02:36:43 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:1121
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/delete')
+#10 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/delete&id=26
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/03/25 02:36:43 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:1121
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/delete')
+#10 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/delete&id=28
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/03/25 02:36:43 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:1121
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/delete')
+#10 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/delete&id=27
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/03/25 02:36:43 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:1121
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('delete')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/delete')
+#10 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/delete&id=28
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/03/25 02:52:29 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('test')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/test')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/test
+---
+2022/03/25 03:04:44 [error] [exception.ArgumentCountError] ArgumentCountError: Too few arguments to function CActiveRecord::findByPk(), 0 passed in D:\xampp\htdocs\teaching\20212\yii\protected\views\barang\view.php on line 23 and at least 1 expected in D:\xampp\htdocs\yii-framework1.1.23\db\ar\CActiveRecord.php:1489
+Stack trace:
+#0 D:\xampp\htdocs\teaching\20212\yii\protected\views\barang\view.php(23): CActiveRecord->findByPk()
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(126): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(785): CController->renderPartial('view', Array, true)
+#5 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\BarangController.php(60): CController->render('view', Array)
+#6 [internal function]: BarangController->actionView('13')
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CAction.php(115): ReflectionMethod->invokeArgs(Object(BarangController), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BarangController), Object(ReflectionMethod), Array)
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#12 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#13 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#16 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('view')
+#18 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/view')
+#19 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#20 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/view&id=13
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/03/25 03:10:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'barangId' in 'order clause'. The SQL statement executed was: SELECT * FROM `tb_katadasar` `t` WHERE tipe_katadasar=:nama ORDER BY barangId ASC LIMIT 10.
+in D:\xampp\htdocs\teaching\20212\yii\protected\views\barang\view.php (31)
+in D:\xampp\htdocs\teaching\20212\yii\protected\controllers\BarangController.php (60)
+in D:\xampp\htdocs\teaching\20212\yii\index.php (13)
+2022/03/25 03:10:29 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'barangId' in 'order clause'. The SQL statement executed was: SELECT * FROM `tb_katadasar` `t` WHERE tipe_katadasar=:nama ORDER BY barangId ASC LIMIT 10 in D:\xampp\htdocs\yii-framework1.1.23\db\CDbCommand.php:543
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\xampp\htdocs\yii-framework1.1.23\db\ar\CActiveRecord.php(1359): CDbCommand->queryAll()
+#2 D:\xampp\htdocs\yii-framework1.1.23\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\xampp\htdocs\teaching\20212\yii\protected\views\barang\view.php(31): CActiveRecord->findAll(Array)
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(126): require('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(785): CController->renderPartial('view', Array, true)
+#8 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\BarangController.php(60): CController->render('view', Array)
+#9 [internal function]: BarangController->actionView('13')
+#10 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CAction.php(115): ReflectionMethod->invokeArgs(Object(BarangController), Array)
+#11 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BarangController), Object(ReflectionMethod), Array)
+#12 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#19 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('view')
+#21 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/view')
+#22 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#23 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/view&id=13
+---
+2022/03/25 03:10:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'barangId' in 'order clause'. The SQL statement executed was: SELECT * FROM `tb_katadasar` `t` WHERE tipe_katadasar=:nama ORDER BY barangId ASC LIMIT 10.
+in D:\xampp\htdocs\teaching\20212\yii\protected\views\barang\view.php (31)
+in D:\xampp\htdocs\teaching\20212\yii\protected\controllers\BarangController.php (60)
+in D:\xampp\htdocs\teaching\20212\yii\index.php (13)
+2022/03/25 03:10:34 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'barangId' in 'order clause'. The SQL statement executed was: SELECT * FROM `tb_katadasar` `t` WHERE tipe_katadasar=:nama ORDER BY barangId ASC LIMIT 10 in D:\xampp\htdocs\yii-framework1.1.23\db\CDbCommand.php:543
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\xampp\htdocs\yii-framework1.1.23\db\ar\CActiveRecord.php(1359): CDbCommand->queryAll()
+#2 D:\xampp\htdocs\yii-framework1.1.23\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\xampp\htdocs\teaching\20212\yii\protected\views\barang\view.php(31): CActiveRecord->findAll(Array)
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(126): require('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(785): CController->renderPartial('view', Array, true)
+#8 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\BarangController.php(60): CController->render('view', Array)
+#9 [internal function]: BarangController->actionView('13')
+#10 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CAction.php(115): ReflectionMethod->invokeArgs(Object(BarangController), Array)
+#11 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BarangController), Object(ReflectionMethod), Array)
+#12 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#15 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#16 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#19 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('view')
+#21 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/view')
+#22 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#23 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/view&id=13
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/04/01 03:46:39 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/admin')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/admin
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang
+---
+2022/04/01 03:50:05 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/admin')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/admin
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/view&id=22
+---
+2022/04/01 03:50:24 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/admin')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/admin
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/view&id=22
+---
+2022/04/01 03:52:11 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/admin')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/admin
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php
+---
+2022/04/01 03:54:00 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/admin')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/admin
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php
+---
+2022/04/01 03:54:08 [error] [exception.ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in D:\xampp\htdocs\teaching\20212\yii\protected\components\UserIdentity.php:29
+Stack trace:
+#0 [internal function]: YiiBase::autoload('UserIdentity')
+#1 D:\xampp\htdocs\teaching\20212\yii\protected\models\LoginForm.php(53): spl_autoload_call('UserIdentity')
+#2 D:\xampp\htdocs\yii-framework1.1.23\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 D:\xampp\htdocs\yii-framework1.1.23\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 D:\xampp\htdocs\yii-framework1.1.23\base\CModel.php(159): CValidator->validate(Object(LoginForm), Array)
+#5 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\SiteController.php(94): CModel->validate()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('login')
+#11 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=site/login
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=site/login
+---
+2022/04/01 03:54:22 [error] [exception.CException] CException: CWebApplication and its behaviors do not have a method or closure named "setState". in D:\xampp\htdocs\yii-framework1.1.23\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\teaching\20212\yii\protected\components\UserIdentity.php(29): CComponent->__call('setState', Array)
+#1 D:\xampp\htdocs\teaching\20212\yii\protected\models\LoginForm.php(54): UserIdentity->authenticate()
+#2 D:\xampp\htdocs\yii-framework1.1.23\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 D:\xampp\htdocs\yii-framework1.1.23\validators\CValidator.php(201): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 D:\xampp\htdocs\yii-framework1.1.23\base\CModel.php(159): CValidator->validate(Object(LoginForm), Array)
+#5 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\SiteController.php(94): CModel->validate()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('login')
+#11 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=site/login
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=site/login
+---
+2022/04/01 03:55:27 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/admin')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/admin
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php
+---
+2022/04/01 04:00:03 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/admin')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/admin
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php
+---
+2022/04/01 04:03:41 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/admin')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/admin
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php
+---
+2022/04/07 06:04:58 [error] [php] Undefined variable: users (D:\xampp\htdocs\teaching\20212\yii\protected\controllers\BarangController.php:142)
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(134): BarangController->runAction()
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): BarangController->filterAccessControl()
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): BarangController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): BarangController->run()
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/admin
+in D:\xampp\htdocs\teaching\20212\yii\protected\controllers\BarangController.php (142)
+in D:\xampp\htdocs\teaching\20212\yii\index.php (13)
+2022/04/07 06:05:05 [error] [exception.CException] CException: Property "BarangController.users" is not defined. in D:\xampp\htdocs\yii-framework1.1.23\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\BarangController.php(142): CComponent->__get('users')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(49): BarangController->actionAdmin()
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('admin')
+#11 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/admin')
+#12 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/admin
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php
+---
+2022/04/07 06:05:10 [error] [exception.CException] CException: Property "BarangController.user" is not defined. in D:\xampp\htdocs\yii-framework1.1.23\base\CComponent.php:130
+Stack trace:
+#0 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\BarangController.php(142): CComponent->__get('user')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(49): BarangController->actionAdmin()
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('admin')
+#11 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/admin')
+#12 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/admin
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php
+---
+2022/04/08 03:28:05 [error] [php] include(CLinkPagerCustom.php): failed to open stream: No such file or directory (D:\xampp\htdocs\yii-framework1.1.23\YiiBase.php:463)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\yii-framework1.1.23\YiiBase.php(310): class_exists()
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CWidgetFactory.php(146): import()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(181): CGridView->createWidget()
+#5 D:\xampp\htdocs\yii-framework1.1.23\zii\widgets\CBaseListView.php(289): CGridView->widget()
+#6 D:\xampp\htdocs\yii-framework1.1.23\zii\widgets\CBaseListView.php(181): CGridView->renderPager()
+#7 unknown(0): CGridView->renderSection()
+#8 D:\xampp\htdocs\yii-framework1.1.23\zii\widgets\CBaseListView.php(164): preg_replace_callback()
+#9 D:\xampp\htdocs\yii-framework1.1.23\zii\widgets\CBaseListView.php(149): CGridView->renderContent()
+#10 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(182): CGridView->run()
+#11 D:\xampp\htdocs\teaching\20212\yii\protected\views\obat\admin.php(36): ObatController->widget()
+#12 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(126): require()
+#13 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(95): ObatController->renderInternal()
+#14 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(872): ObatController->renderFile()
+#15 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(785): ObatController->renderPartial()
+#16 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\ObatController.php(131): ObatController->render()
+#17 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(49): ObatController->actionIndex()
+#18 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams()
+#19 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(134): ObatController->runAction()
+#20 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#21 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CAccessControlFilter->filter()
+#22 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): ObatController->filterAccessControl()
+#23 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#24 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#25 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): ObatController->runActionWithFilters()
+#26 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): ObatController->run()
+#27 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController()
+#28 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#29 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/teaching/20212/yii/index.php?r=obat
+in D:\xampp\htdocs\teaching\20212\yii\protected\views\obat\admin.php (36)
+in D:\xampp\htdocs\teaching\20212\yii\protected\controllers\ObatController.php (131)
+in D:\xampp\htdocs\teaching\20212\yii\index.php (13)
+2022/04/08 03:28:53 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('obat/admin')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=obat/admin
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=obat
+---
+2022/04/21 06:25:54 [error] [php] include(CLinkPagerCustom.php): failed to open stream: No such file or directory (D:\xampp\htdocs\yii-framework1.1.23\YiiBase.php:463)
+Stack trace:
+#0 unknown(0): spl_autoload_call()
+#1 D:\xampp\htdocs\yii-framework1.1.23\YiiBase.php(310): class_exists()
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CWidgetFactory.php(146): import()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(146): CWidgetFactory->createWidget()
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(181): CGridView->createWidget()
+#5 D:\xampp\htdocs\yii-framework1.1.23\zii\widgets\CBaseListView.php(285): CGridView->widget()
+#6 D:\xampp\htdocs\yii-framework1.1.23\zii\widgets\CBaseListView.php(181): CGridView->renderPager()
+#7 unknown(0): CGridView->renderSection()
+#8 D:\xampp\htdocs\yii-framework1.1.23\zii\widgets\CBaseListView.php(164): preg_replace_callback()
+#9 D:\xampp\htdocs\yii-framework1.1.23\zii\widgets\CBaseListView.php(149): CGridView->renderContent()
+#10 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(182): CGridView->run()
+#11 D:\xampp\htdocs\teaching\20212\yii\protected\views\barang\admin.php(42): BarangController->widget()
+#12 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(126): require()
+#13 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(95): BarangController->renderInternal()
+#14 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(872): BarangController->renderFile()
+#15 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(785): BarangController->renderPartial()
+#16 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\BarangController.php(148): BarangController->render()
+#17 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(49): BarangController->actionAdmin()
+#18 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams()
+#19 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(134): BarangController->runAction()
+#20 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#21 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CAccessControlFilter->filter()
+#22 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): BarangController->filterAccessControl()
+#23 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#24 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#25 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): BarangController->runActionWithFilters()
+#26 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): BarangController->run()
+#27 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController()
+#28 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#29 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/admin
+in D:\xampp\htdocs\teaching\20212\yii\protected\views\barang\admin.php (42)
+in D:\xampp\htdocs\teaching\20212\yii\protected\controllers\BarangController.php (148)
+in D:\xampp\htdocs\teaching\20212\yii\index.php (13)
+2022/04/21 06:44:47 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('pakaian/admin')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=pakaian/admin
+---
+2022/04/21 06:47:03 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('pakaian/admin')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=pakaian/admin
+---
+2022/04/21 07:44:28 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('pakaian/admin')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=pakaian/admin
+---
+2022/04/22 03:15:58 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('pakaian/admin')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=pakaian/admin
+---
+2022/04/22 03:16:55 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('pakaian/admin')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=pakaian/admin
+---
+2022/04/22 03:16:56 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('pakaian/admin')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=pakaian/admin
+---
+2022/04/22 03:16:56 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('admin')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('pakaian/admin')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=pakaian/admin
+---
+2022/04/22 03:35:55 [error] [exception.ParseError] ParseError: syntax error, unexpected 'foreach' (T_FOREACH) in D:\xampp\htdocs\teaching\20212\yii\protected\views\site\index.php:12
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', NULL, true)
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', NULL, true)
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#3 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\SiteController.php(32): CController->render('index')
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/teaching/20212/yii/index.php
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=site/login
+---
+2022/04/22 03:36:02 [error] [exception.ParseError] ParseError: syntax error, unexpected '}' in D:\xampp\htdocs\teaching\20212\yii\protected\views\site\index.php:21
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', NULL, true)
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', NULL, true)
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#3 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\SiteController.php(32): CController->render('index')
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('')
+#10 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/teaching/20212/yii/index.php
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=site/login
+---
+2022/04/28 07:30:37 [error] [exception.ParseError] ParseError: syntax error, unexpected 'array' (T_ARRAY), expecting ',' or ')' in D:\xampp\htdocs\teaching\20212\yii\protected\views\barang\_form.php:45
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#2 D:\xampp\htdocs\teaching\20212\yii\protected\views\barang\update.php(14): CController->renderPartial('_form', Array)
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(126): require('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(785): CController->renderPartial('update', Array, true)
+#7 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\BarangController.php(108): CController->render('update', Array)
+#8 [internal function]: BarangController->actionUpdate('1')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CAction.php(115): ReflectionMethod->invokeArgs(Object(BarangController), Array)
+#10 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BarangController), Object(ReflectionMethod), Array)
+#11 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#14 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#18 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('update')
+#20 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/update')
+#21 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/update&id=1
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/04/28 07:30:44 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting ',' or ')' in D:\xampp\htdocs\teaching\20212\yii\protected\views\barang\_form.php:47
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#2 D:\xampp\htdocs\teaching\20212\yii\protected\views\barang\update.php(14): CController->renderPartial('_form', Array)
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(126): require('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(785): CController->renderPartial('update', Array, true)
+#7 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\BarangController.php(108): CController->render('update', Array)
+#8 [internal function]: BarangController->actionUpdate('1')
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CAction.php(115): ReflectionMethod->invokeArgs(Object(BarangController), Array)
+#10 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(BarangController), Object(ReflectionMethod), Array)
+#11 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#14 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#15 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#18 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('update')
+#20 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('barang/update')
+#21 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#22 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=barang/update&id=1
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=barang/admin
+---
+2022/04/28 07:59:45 [error] [php] Undefined variable: model (D:\xampp\htdocs\teaching\20212\yii\protected\controllers\SiteController.php:112)
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(286): SiteController->runAction()
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): SiteController->runActionWithFilters()
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): SiteController->run()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/teaching/20212/yii/index.php?r=site/registrasi
+in D:\xampp\htdocs\teaching\20212\yii\protected\controllers\SiteController.php (112)
+in D:\xampp\htdocs\teaching\20212\yii\index.php (13)
+2022/04/28 07:59:56 [error] [exception.CException] CException: SiteController cannot find the requested view "registrasi". in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:881
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(785): CController->renderPartial('registrasi', NULL, true)
+#1 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\SiteController.php(112): CController->render('registrasi')
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(49): SiteController->actionRegistrasi()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('registrasi')
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('site/registrasi')
+#8 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=site/registrasi
+---
+2022/04/28 08:00:27 [error] [php] Undefined variable: model (D:\xampp\htdocs\teaching\20212\yii\protected\views\site\registrasi.php:28)
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(872): SiteController->renderFile()
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(785): SiteController->renderPartial()
+#2 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\SiteController.php(112): SiteController->render()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(49): SiteController->actionRegistrasi()
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(286): SiteController->runAction()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): SiteController->run()
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/teaching/20212/yii/index.php?r=site/registrasi
+in D:\xampp\htdocs\teaching\20212\yii\protected\views\site\registrasi.php (28)
+in D:\xampp\htdocs\teaching\20212\yii\protected\controllers\SiteController.php (112)
+in D:\xampp\htdocs\teaching\20212\yii\index.php (13)
+2022/04/28 08:11:12 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`userId`, `userNama`, `userPassword`, `userGroup`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in D:\xampp\htdocs\teaching\20212\yii\protected\controllers\SiteController.php (117)
+in D:\xampp\htdocs\teaching\20212\yii\index.php (13)
+2022/04/28 08:11:12 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`userId`, `userNama`, `userPassword`, `userGroup`) VALUES (:yp0, :yp1, :yp2, :yp3) in D:\xampp\htdocs\yii-framework1.1.23\db\CDbCommand.php:358
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\db\ar\CActiveRecord.php(1083): CDbCommand->execute()
+#1 D:\xampp\htdocs\yii-framework1.1.23\db\ar\CActiveRecord.php(811): CActiveRecord->insert(NULL)
+#2 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\SiteController.php(117): CActiveRecord->save()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(49): SiteController->actionRegistrasi()
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('registrasi')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('site/registrasi')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=site/registrasi
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=site/registrasi
+---
+2022/04/28 08:13:28 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`userId`, `userNama`, `userPassword`, `userGroup`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in D:\xampp\htdocs\teaching\20212\yii\protected\controllers\SiteController.php (118)
+in D:\xampp\htdocs\teaching\20212\yii\index.php (13)
+2022/04/28 08:14:39 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`userId`, `userNama`, `userPassword`, `userGroup`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in D:\xampp\htdocs\teaching\20212\yii\protected\controllers\SiteController.php (119)
+in D:\xampp\htdocs\teaching\20212\yii\index.php (13)
+2022/04/28 08:14:47 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin3' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`userId`, `userNama`, `userPassword`, `userGroup`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in D:\xampp\htdocs\teaching\20212\yii\protected\controllers\SiteController.php (119)
+in D:\xampp\htdocs\teaching\20212\yii\index.php (13)
+2022/04/28 08:15:12 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin3' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`userId`, `userNama`, `userPassword`, `userGroup`) VALUES (:yp0, :yp1, :yp2, :yp3).
+in D:\xampp\htdocs\teaching\20212\yii\protected\controllers\SiteController.php (119)
+in D:\xampp\htdocs\teaching\20212\yii\index.php (13)

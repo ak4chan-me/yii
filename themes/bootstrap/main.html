@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		.bg-light{
+			background-color: #f0f0f0!important;
+		}
+		.my-bg{
+			background: url(img/bg-1.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position-x: 80%;
+		}
+		.my-bg2{
+			background: url(img/bg-2.png);
+			background-size: 38%;
+			background-repeat: no-repeat;
+			background-position: 22% 220px;
+			padding-bottom: 130px!important;
+		}
+		.navbar .navbar-nav {
+			vertical-align: top;
+			justify-content: right;
+			width:80%;
+			padding-left: 10%;;
+			padding-right: 10%;;
+		}
+
+		.navbar .navbar-collapse {
+			text-align: center;
+		}
+	</style>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!-- ini bagian navigasi -->
+	<nav class="navbar navbar-expand-lg justify-content-center navbar-light bg-light">
+		<div class="container-fluid ">
+		  <a class="navbar-brand" href="#">Navbar</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Link</a>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				  Dropdown
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <li><a class="dropdown-item" href="#">Action</a></li>
+				  <li><a class="dropdown-item" href="#">Another action</a></li>
+				  <li><hr class="dropdown-divider"></li>
+				  <li><a class="dropdown-item" href="#">Something else here</a></li>
+				</ul>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+    <!-- ini bagian jumbotron -->
+	<div class="my-bg  position-relative overflow-hidden p-3 p-md-5 text-left bg-light" >
+		<div class="row">
+			<div class="col-md-5 p-lg-5 mx-auto">
+			<h1 class="display-4 fw-normal">Hi, There!</h1>
+			<p class="lead fw-normal">I'm a graphic designer. And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
+			<a class="btn btn-dark" href="#">Portofolio</a>
+			<a class="btn btn-outline-dark" href="#">More about me</a>
+			</div>
+			<div class="col-md-3 p-lg-3 mx-auto ">
+			
+			</div>
+		</div>
+	</div>
+    <!-- ini bagian about me -->
+	<div class="my-bg2 position-relative overflow-hidden p-3 p-md-5 text-left" >
+		<div class="overflow-hidden p-3 p-md-5 text-center">
+				<h1>About Me</h1>
+				<h4>I Design beautiful web, and all what i want</h4>
+		</div>
+		<div class="row">			
+			<div class="col-md-5 p-lg-3 mx-auto ">
+			
+			</div>
+			<div class="col-md-5 p-lg-5 mx-auto">
+				<h1 class="display-5 fw-normal">Why hire me for your next project?</h1>
+				<p class="lead fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam massa ante, pellentesque nec eros in, commodo luctus est. In nec finibus eros. In hac habitasse platea dictumst. Aenean condimentum, mi a fermentum tempus, tellus nunc dapibus enim, nec mollis ante quam in felis.</p>
+				<p class="lead fw-normal">Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet efficitur metus. Vivamus in sollicitudin felis. Maecenas arcu nisl, euismod ac mauris a, suscipit pretium turpis. Praesent nec enim dictum, pulvinar nibh vitae, hendrerit mi. Nulla sed vehicula est. In quis accumsan erat.</p>
+				<a class="btn btn-outline-secondary" href="#">Learn More</a>
+				<a class="btn btn-secondary" href="#">Download CV</a>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row row-cols-1 row-cols-md-3 g-4">
+		  <div class="col">
+			<div class="card h-100">
+			  <img src="img/bg3.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			  </div>
+			  <div class="card-footer">
+				<small class="text-muted">Last updated 3 mins ago</small>
+			  </div>
+			</div>
+		  </div>
+		  <div class="col">
+			<div class="card h-100">
+			  <img src="img/bg2.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+			  </div>
+			  <div class="card-footer">
+				<small class="text-muted">Last updated 3 mins ago</small>
+			  </div>
+			</div>
+		  </div>
+		  <div class="col">
+			<div class="card h-100">
+			  <img src="img/bg1.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+			  </div>
+			  <div class="card-footer">
+				<small class="text-muted">Last updated 3 mins ago</small>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</div>
+	
+    <!-- ini bagian footer -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>    
+  </body>
+</html>
