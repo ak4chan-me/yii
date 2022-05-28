@@ -998,3 +998,338 @@ in D:\xampp\htdocs\teaching\20212\yii\index.php (13)
 2022/04/28 08:15:12 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin3' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `user` (`userId`, `userNama`, `userPassword`, `userGroup`) VALUES (:yp0, :yp1, :yp2, :yp3).
 in D:\xampp\htdocs\teaching\20212\yii\protected\controllers\SiteController.php (119)
 in D:\xampp\htdocs\teaching\20212\yii\index.php (13)
+2022/05/28 07:17:33 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'coba.pakaian' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `pakaian`.
+in D:\xampp\htdocs\teaching\20212\yii\protected\views\site\index.php (3)
+in D:\xampp\htdocs\teaching\20212\yii\protected\controllers\SiteController.php (32)
+in D:\xampp\htdocs\teaching\20212\yii\index.php (13)
+2022/05/28 07:17:33 [error] [exception.CDbException] CDbException: The table "pakaian" for active record class "Pakaian" cannot be found in the database. in D:\xampp\htdocs\yii-framework1.1.23\db\ar\CActiveRecord.php:2390
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\db\ar\CActiveRecord.php(413): CActiveRecordMetaData->__construct(Object(Pakaian))
+#1 D:\xampp\htdocs\yii-framework1.1.23\db\ar\CActiveRecord.php(663): CActiveRecord->getMetaData()
+#2 D:\xampp\htdocs\yii-framework1.1.23\db\ar\CActiveRecord.php(1358): CActiveRecord->getTableSchema()
+#3 D:\xampp\htdocs\yii-framework1.1.23\db\ar\CActiveRecord.php(1478): CActiveRecord->query(Object(CDbCriteria), true)
+#4 D:\xampp\htdocs\teaching\20212\yii\protected\views\site\index.php(3): CActiveRecord->findAll()
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(126): require('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', NULL, true)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', NULL, true)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(785): CController->renderPartial('index', NULL, true)
+#9 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\SiteController.php(32): CController->render('index')
+#10 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('')
+#15 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('')
+#16 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#17 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/teaching/20212/yii/index.php
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=pakaian/index
+---
+2022/05/28 07:26:43 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:486
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(270): CController->missingAction('index')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('index')
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('proses/index')
+#3 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=proses/index
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=proses/beli&id=3
+---
+2022/05/28 07:36:35 [error] [php] Undefined variable: barang (D:\xampp\htdocs\teaching\20212\yii\protected\controllers\ProsesController.php:87)
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(134): ProsesController->runAction()
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CAccessControlFilter->filter()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): ProsesController->filterAccessControl()
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): ProsesController->runActionWithFilters()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): ProsesController->run()
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/teaching/20212/yii/index.php?r=proses/keranjang
+in D:\xampp\htdocs\teaching\20212\yii\protected\controllers\ProsesController.php (87)
+in D:\xampp\htdocs\teaching\20212\yii\index.php (13)
+2022/05/28 07:36:45 [error] [exception.CException] CException: ProsesController cannot find the requested view "keranjang". in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:881
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(785): CController->renderPartial('keranjang', NULL, true)
+#1 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\ProsesController.php(86): CController->render('keranjang')
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(49): ProsesController->actionKeranjang()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#10 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('keranjang')
+#12 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('proses/keranjan...')
+#13 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=proses/keranjang
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=proses/beli&id=4
+---
+2022/05/28 07:51:18 [error] [php] Undefined index: harga (D:\xampp\htdocs\teaching\20212\yii\protected\views\proses\keranjang.php:32)
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(872): ProsesController->renderFile()
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(785): ProsesController->renderPartial()
+#2 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\ProsesController.php(95): ProsesController->render()
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(49): ProsesController->actionKeranjang()
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(134): ProsesController->runAction()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CAccessControlFilter->filter()
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): ProsesController->filterAccessControl()
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#11 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): ProsesController->runActionWithFilters()
+#12 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): ProsesController->run()
+#13 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/teaching/20212/yii/index.php?r=proses/keranjang
+in D:\xampp\htdocs\teaching\20212\yii\protected\views\proses\keranjang.php (32)
+in D:\xampp\htdocs\teaching\20212\yii\protected\controllers\ProsesController.php (95)
+in D:\xampp\htdocs\teaching\20212\yii\index.php (13)
+2022/05/28 07:55:50 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('checkout')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('proses/checkout')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=proses/checkout
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=proses/keranjang
+---
+2022/05/28 08:08:41 [error] [exception.CException] CException: ProsesController cannot find the requested view "_search". in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:881
+Stack trace:
+#0 D:\xampp\htdocs\teaching\20212\yii\protected\views\proses\admikn.php(31): CController->renderPartial('_search', Array)
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(126): require('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(785): CController->renderPartial('admikn', Array, true)
+#5 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\ProsesController.php(129): CController->render('admikn', Array)
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(49): ProsesController->actionTransaksi()
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#10 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#14 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('transaksi')
+#16 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('proses/transaks...')
+#17 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#18 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=proses/transaksi
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=proses/keranjang
+---
+2022/05/28 08:12:11 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "view". in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:486
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(270): CController->missingAction('view')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('view')
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('proses/view')
+#3 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=proses/view&id=1
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=proses/transaksi
+---
+2022/05/28 08:12:18 [error] [exception.CHttpException.403] CHttpException: Login Required in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CWebUser.php:396
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\gii\GiiModule.php(177): CWebUser->loginRequired()
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(263): GiiModule->beforeControllerAction(Object(CrudGenerator), Object(CInlineAction))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('code')
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('gii/crud/code')
+#4 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#5 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#6 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=gii/crud/code&id=3
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=gii/crud/index
+---
+2022/05/28 08:18:03 [error] [exception.ParseError] ParseError: syntax error, unexpected '->' (T_OBJECT_OPERATOR) in D:\xampp\htdocs\teaching\20212\yii\protected\views\proses\detail.php:45
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(785): CController->renderPartial('detail', Array, true)
+#3 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\ProsesController.php(66): CController->render('detail', Array)
+#4 [internal function]: ProsesController->actionView('1')
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CAction.php(115): ReflectionMethod->invokeArgs(Object(ProsesController), Array)
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProsesController), Object(ReflectionMethod), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#10 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#14 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('view')
+#16 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('proses/view')
+#17 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#18 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=proses/view&id=1
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=proses/transaksi
+---
+2022/05/28 08:18:22 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:486
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(270): CController->missingAction('index')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('index')
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('proses/index')
+#3 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=proses/index
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=proses/view&id=1
+---
+2022/05/28 08:19:04 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('transaksi')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('proses/transaks...')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=proses/transaksi
+---
+2022/05/28 08:20:05 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('transaksi')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('proses/transaks...')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=proses/transaksi
+---
+2022/05/28 08:20:22 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('transaksi')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('proses/transaks...')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=proses/transaksi
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=proses/view&id=1
+---
+2022/05/28 08:29:09 [error] [exception.CHttpException.403] CHttpException: You are not authorized to perform this action. in D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php:183
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#3 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('unggah')
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('proses/unggah')
+#9 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=proses/unggah&id=1
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=proses/view&id=1
+---
+2022/05/28 08:38:07 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "validasi". in D:\xampp\htdocs\yii-framework1.1.23\web\CController.php:486
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(270): CController->missingAction('validasi')
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('validasi')
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('proses/validasi')
+#3 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=proses/validasi&id=1&bayar=1
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=proses/view&id=1
+---
+2022/05/28 08:42:20 [error] [exception.ParseError] ParseError: syntax error, unexpected '}', expecting ',' or ';' in D:\xampp\htdocs\teaching\20212\yii\protected\views\proses\admin.php:48
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(95): CBaseController->renderInternal('D:\\xampp\\htdocs...', Array, true)
+#1 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(872): CBaseController->renderFile('D:\\xampp\\htdocs...', Array, true)
+#2 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(785): CController->renderPartial('admin', Array, true)
+#3 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\ProsesController.php(178): CController->render('admin', Array)
+#4 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(49): ProsesController->actionDaftarpesan()
+#5 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#8 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CFilter->filter(Object(CFilterChain))
+#9 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#12 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): CController->run('daftarpesan')
+#14 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController('proses/daftarpe...')
+#15 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/teaching/20212/yii/index.php?r=proses/daftarpesan
+HTTP_REFERER=http://localhost/teaching/20212/yii/index.php?r=proses/view&id=1
+---
+2022/05/28 08:43:17 [error] [php] Trying to get property 'traUser' of non-object (D:\xampp\htdocs\teaching\20212\yii\protected\views\proses\admin.php:48)
+Stack trace:
+#0 D:\xampp\htdocs\yii-framework1.1.23\zii\widgets\grid\CGridColumn.php(237): CDataColumn->getDataCellContent()
+#1 D:\xampp\htdocs\yii-framework1.1.23\zii\widgets\grid\CGridColumn.php(160): CDataColumn->renderDataCellContent()
+#2 D:\xampp\htdocs\yii-framework1.1.23\zii\widgets\grid\CGridView.php(655): CDataColumn->renderDataCell()
+#3 D:\xampp\htdocs\yii-framework1.1.23\zii\widgets\grid\CGridView.php(639): CGridView->renderDataCell()
+#4 D:\xampp\htdocs\yii-framework1.1.23\zii\widgets\grid\CGridView.php(595): CGridView->renderTableRow()
+#5 D:\xampp\htdocs\yii-framework1.1.23\zii\widgets\grid\CGridView.php(505): CGridView->renderTableBody()
+#6 D:\xampp\htdocs\yii-framework1.1.23\zii\widgets\CBaseListView.php(181): CGridView->renderItems()
+#7 unknown(0): CGridView->renderSection()
+#8 D:\xampp\htdocs\yii-framework1.1.23\zii\widgets\CBaseListView.php(164): preg_replace_callback()
+#9 D:\xampp\htdocs\yii-framework1.1.23\zii\widgets\CBaseListView.php(149): CGridView->renderContent()
+#10 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(182): CGridView->run()
+#11 D:\xampp\htdocs\teaching\20212\yii\protected\views\proses\admin.php(28): ProsesController->widget()
+#12 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(126): require()
+#13 D:\xampp\htdocs\yii-framework1.1.23\web\CBaseController.php(95): ProsesController->renderInternal()
+#14 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(872): ProsesController->renderFile()
+#15 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(785): ProsesController->renderPartial()
+#16 D:\xampp\htdocs\teaching\20212\yii\protected\controllers\ProsesController.php(178): ProsesController->render()
+#17 D:\xampp\htdocs\yii-framework1.1.23\web\actions\CInlineAction.php(49): ProsesController->actionDaftarpesan()
+#18 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(308): CInlineAction->runWithParams()
+#19 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(134): ProsesController->runAction()
+#20 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilter.php(40): CFilterChain->run()
+#21 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(1148): CAccessControlFilter->filter()
+#22 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CInlineFilter.php(58): ProsesController->filterAccessControl()
+#23 D:\xampp\htdocs\yii-framework1.1.23\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#24 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(291): CFilterChain->run()
+#25 D:\xampp\htdocs\yii-framework1.1.23\web\CController.php(265): ProsesController->runActionWithFilters()
+#26 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(282): ProsesController->run()
+#27 D:\xampp\htdocs\yii-framework1.1.23\web\CWebApplication.php(141): CWebApplication->runController()
+#28 D:\xampp\htdocs\yii-framework1.1.23\base\CApplication.php(185): CWebApplication->processRequest()
+#29 D:\xampp\htdocs\teaching\20212\yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/teaching/20212/yii/index.php?r=proses/daftarpesan
+in D:\xampp\htdocs\teaching\20212\yii\protected\views\proses\admin.php (48)
+in D:\xampp\htdocs\teaching\20212\yii\protected\views\proses\admin.php (28)
+in D:\xampp\htdocs\teaching\20212\yii\protected\controllers\ProsesController.php (178)

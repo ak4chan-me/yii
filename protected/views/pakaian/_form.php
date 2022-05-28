@@ -30,7 +30,7 @@
 	     
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'nm_pakaian'); ?>
-		<?php echo 		$form->textField($model,'nm_pakaian',array('class'=>"form-control", 'size'=>45,'maxlength'=>45))		; ?>
+		<?php echo $form->textField($model,'nm_pakaian',array('class'=>"form-control", 'size'=>45,'maxlength'=>45))		; ?>
 		<small class="form-text text-muted">
 			<?php echo $form->error($model,'nm_pakaian'); ?>
 		</small>
@@ -39,7 +39,7 @@
 	     
 	<div class="form-group">
 		<?php echo $form->labelEx($model,'hrg_pakaian'); ?>
-		<?php echo 		$form->textField($model,'hrg_pakaian',array('class'=>"form-control", 'size'=>10,'maxlength'=>10))		; ?>
+		<?php echo $form->textField($model,'hrg_pakaian',array('class'=>"form-control", 'size'=>10,'maxlength'=>10))		; ?>
 		<small class="form-text text-muted">
 			<?php echo $form->error($model,'hrg_pakaian'); ?>
 		</small>

@@ -79,6 +79,7 @@ class PakaianController extends Controller
 				);
 				$model->gmbr_pakaian = $file;
 			}
+			//echo $model->gmbr_pakaian;
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->kd_pakaian));
 		}

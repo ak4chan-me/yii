@@ -25,7 +25,7 @@ foreach($data as $pakaian){
 			$pakaian->nm_pakaian,
 			$pakaian->hrg_pakaian,
 			Yii::app()->createUrl(
-				'pakaian/view', // [controller]/[action]
+				'proses/beli', // [controller]/[action]
 				array('id'=>$pakaian->kd_pakaian) //get
 			)
 	);	

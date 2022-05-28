@@ -1,22 +1,23 @@
 <?php
 
 /**
- * This is the model class for table "pakaian".
+ * This is the model class for table "tk_pakai_trans".
  *
- * The followings are the available columns in table 'pakaian':
- * @property string $kd_pakaian
- * @property string $nm_pakaian
- * @property string $hrg_pakaian
- * @property string $gmbr_pakaian
+ * The followings are the available columns in table 'tk_pakai_trans':
+ * @property string $ptId
+ * @property string $ptKdPakaian
+ * @property string $ptTraId
+ * @property integer $ptJumlah
+ * @property string $ptTotal
  */
-class Pakaian extends CActiveRecord
+class PakaiTrans extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'tk_pakaian';
+		return 'tk_pakai_trans';
 	}
 
 	/**
@@ -27,12 +28,13 @@ class Pakaian extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('nm_pakaian, hrg_pakaian, gmbr_pakaian', 'required'),
-			array('nm_pakaian, gmbr_pakaian', 'length', 'max'=>45),
-			array('hrg_pakaian', 'length', 'max'=>10),
+			array('ptKdPakaian, ptTraId, ptJumlah, ptTotal', 'required'),
+			array('ptJumlah', 'numerical', 'integerOnly'=>true),
+			array('ptKdPakaian, ptTraId', 'length', 'max'=>20),
+			array('ptTotal', 'length', 'max'=>10),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('kd_pakaian, nm_pakaian, hrg_pakaian, gmbr_pakaian', 'safe', 'on'=>'search'),
+			array('ptId, ptKdPakaian, ptTraId, ptJumlah, ptTotal', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -53,10 +55,11 @@ class Pakaian extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'kd_pakaian' => 'Kd Pakaian',
-			'nm_pakaian' => 'Nm Pakaian',
-			'hrg_pakaian' => 'Hrg Pakaian',
-			'gmbr_pakaian' => 'Gmbr Pakaian',
+			'ptId' => 'Pt',
+			'ptKdPakaian' => 'Pt Kd Pakaian',
+			'ptTraId' => 'Pt Tra',
+			'ptJumlah' => 'Pt Jumlah',
+			'ptTotal' => 'Pt Total',
 		);
 	}
 
@@ -78,10 +81,11 @@ class Pakaian extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('kd_pakaian',$this->kd_pakaian,true);
-		$criteria->compare('nm_pakaian',$this->nm_pakaian,true);
-		$criteria->compare('hrg_pakaian',$this->hrg_pakaian,true);
-		$criteria->compare('gmbr_pakaian',$this->gmbr_pakaian,true);
+		$criteria->compare('ptId',$this->ptId,true);
+		$criteria->compare('ptKdPakaian',$this->ptKdPakaian,true);
+		$criteria->compare('ptTraId',$this->ptTraId,true);
+		$criteria->compare('ptJumlah',$this->ptJumlah);
+		$criteria->compare('ptTotal',$this->ptTotal,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -92,7 +96,7 @@ class Pakaian extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Pakaian the static model class
+	 * @return PakaiTrans the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
